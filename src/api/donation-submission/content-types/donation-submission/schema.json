@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "donation_submissions",
+  "info": {
+    "singularName": "donation-submission",
+    "pluralName": "donation-submissions",
+    "displayName": "DonationSubmission"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": false
+    },
+    "phone": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer",
+      "required": true
+    },
+    "donationType": {
+      "type": "string"
+    }
+  }
+}

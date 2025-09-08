@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "volunteer_applications",
+  "info": {
+    "singularName": "volunteer-application",
+    "pluralName": "volunteer-applications",
+    "displayName": "VolunteerApplication"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "fatherName": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "education": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}
