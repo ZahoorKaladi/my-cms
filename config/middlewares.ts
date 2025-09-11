@@ -8,7 +8,7 @@ export default ({ env }) => ([
     config: {
       enabled: true,
       headers: '*',
-      origin: env('CORS_ORIGIN', 'http://localhost:5173').split(','), // dynamic & supports multiple origins
+      origin: env('CORS_ORIGIN', 'http://localhost:5174').split(','), // dynamic & supports multiple origins
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     },
   },
